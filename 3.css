@@ -1,0 +1,75 @@
+body{
+    background-color: #015656;
+  }
+  .titulo{
+    text-align: center;
+    font-size: 40px;
+    color: #ff7b00;
+    font-family: 'Iceberg', cursive;
+ 
+  }
+
+  #contenedor_botones{
+    width:100%;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+  }
+  .contenedor {
+      overflow: hidden;
+      display: flex;
+      flex-flow: row wrap;
+    }
+     
+  .filtro {
+      background-color: #012224;
+      color: rgb(255, 255, 255);
+      width: 15%;
+      padding: 1% 1%;
+      text-align: center;
+      margin: 12px;
+       /* display: none ocultos de inicio */
+      border:2px solid #788687 ;
+      border-radius: 6px;
+      margin-left: 6%;
+      font-size: 23px;
+      font-family: 'Kanit', sans-serif;
+  }
+     
+    /* La clase show se añade a los elementos filtrados */
+    .show {
+      display: block;
+    }
+     
+    /* Estilo de los botones */
+    .boton {
+      border: 2px solid #012224;
+      border-radius: 4px;
+      padding: 12px 16px;
+      cursor: pointer;
+      width:15%;
+      font-size: 25px;
+      background-color: #033d3e;
+      box-shadow: 4px 7px #012224d3;
+      color: #ff7b00;
+      font-family: 'Roboto Mono', monospace;
+    }
+     
+    /* cambio de background-color con hover */
+    .boton:hover {
+      background-color: #012224;
+      box-shadow: 0px 0px;
+      color: #f89b44;
+      
+    }
+     
+    /* Background-color oscuro al botón activo */
+    .boton.active {
+      background-color: rgb(255, 123, 0);
+      color: rgb(0, 0, 0);
+      box-shadow: 4px 7px rgba(77, 38, 1, 0.826);
+    }
+

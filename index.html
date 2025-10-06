@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar elementos</title>
+    <link rel="stylesheet" type="text/css" href="3.css">
+
+   <!--  fuentes  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+
+<p class="titulo">Series de Superheroes de cada plataforma</p>
+
+   <div id="contenedor_botones">
+    <button class="boton active" onclick="filtraseleccion('all', this)"> Inicio</button>
+    <button class="boton" onclick="filtraseleccion('Netflix', this)"> Netflix</button>
+    <button class="boton" onclick="filtraseleccion('HBO', this)"> HBO MAX</button>
+    <button class="boton" onclick="filtraseleccion('Disney', this)"> Disney+</button>
+    <button class="boton" onclick="filtraseleccion('Amazon', this)"> Amazon Prime</button>
+  </div>
+   
+
+      <div class="contenedor">
+        <div class="filtro Netflix">Titanes<br><br><img src="imagenes/netflix1.jpg" style="width: 80%"></div>
+        <div class="filtro HBO MAX">El pacificador<br><br><img src="imagenes/hbo1.jpg" style="width: 80%"></div>
+        <div class="filtro Netflix">The umbrella academy<br><br><img src="imagenes/netflix2.jpg" style="width: 80%"></div>
+        <div class="filtro Disney">Loki<br><br><img src="imagenes/disney1.jpg" style="width: 80%"></div>
+        <div class="filtro Amazon Prime Video">Invencible<br><br><img src="imagenes/amazon1.jpg" style="width: 80%"></div>
+        <div class="filtro Netflix">Jupiter's Legacy<br><br><img src="imagenes/netflix3.jpg" style="width: 80%"></div>
+        <div class="filtro Amazon Prime Video">The boys<br><br><img src="imagenes/amazon2.jpg" style="width: 80%"></div>
+        <div class="filtro HBO MAX">Superman & Lois<br><br><img src="imagenes/hbo2.jpg" style="width: 80%"></div>
+        <div class="filtro Disney">Moon Knight<br><br><img src="imagenes/disney2.jpg" style="width: 80%"></div>
+        <div class="filtro Disney">Hawkeye<br><br><img src="imagenes/disney3.jpg" style="width: 80%"></div>
+        <div class="filtro HBO MAX">Pennyworth<br><br><img src="imagenes/hbo3.jpg" style="width: 80%"></div>
+        <div class="filtro Netflix">Como educar a un superheroe<br><img src="imagenes/netflix4.jpg" style="width: 80%"></div>
+        <div class="filtro HBO MAX ">Doom Patrol<br><br><img src="imagenes/hbo4.jpg" style="width: 80%"></div>
+        <div class="filtro Disney">Ms. Marvel<br><br><img src="imagenes/disney4.jpg" style="width: 80%"></div>
+      
+      </div>
+</body>
+
+<script src="2.js"></script>
+
+</html>
